@@ -1,0 +1,21 @@
+{
+    "name": "michun/weixin_test",
+    "description": "this is a test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michun",
+            "email": "251018375@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4": {"wxchat\\": "src/"}
+    }
+
+}
