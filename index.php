@@ -16,4 +16,4 @@ $config = [
 ];
 $api = new \wxchat\wxapi($config);
 $token = $api->getAccessToken();
-var_dump($token);
+//var_dump($token);
